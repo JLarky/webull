@@ -28,7 +28,7 @@ export default () => (
     </p>
     <p className="m-4">
       <a
-        href="https://act.webull.com/invitation/us/share.html"
+        href="https://act.webull.com/promotion/invitation/share.html?inviteCode=Swb3B2AOF6sY"
         type="button"
         className="block-button bg-blue-700 w-full p-3 font-bold text-white"
       >

@@ -14,8 +14,8 @@ function App() {
       <nav>
         <Link to="/">Home</Link>
         <Link to="/about">About</Link>
-        <Link to="/blog">Blog</Link>
-        <Link to="/dynamic">Dynamic</Link>
+        {/* <Link to="/blog">Blog</Link> */}
+        {/* <Link to="/dynamic">Dynamic</Link> */}
       </nav>
       <div className="content">
         <FancyDiv>

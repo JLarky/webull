@@ -8,6 +8,6 @@ if (typeof window === "object") {
 }
 
 const FancyDiv: React.FC = ({ children }) => {
-  return <div style={{ border: '1px solid red' }}>{children}</div>
+  return <div>{children}</div>
 }
 export default FancyDiv

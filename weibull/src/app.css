@@ -1,3 +1,20 @@
 @tailwind base;
+
+a {
+  @apply text-blue-400;
+}
+a:hover {
+  @apply underline;
+}
+
+h1 {
+  @apply m-3 text-3xl font-bold;
+}
+
 @tailwind components;
+
+nav a:hover {
+  @apply no-underline;
+}
+
 @tailwind utilities;

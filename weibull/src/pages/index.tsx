@@ -2,7 +2,7 @@ import React from "react";
 
 export default () => (
   <div className="text-center">
-    <h1 className="m-3 text-3xl font-bold">Weibull vs Robinhood</h1>
+    <h1>Weibull vs Robinhood</h1>
     <p className="m-4">
       Webull is commission free online brokerage that competes with Robinhood.
       Unfortunatelly for them it's hard to hear name of the company right. Is it
@@ -11,7 +11,7 @@ export default () => (
     <p className="m-4">
       But you found this page, so at least you did something right :) If you
       want to learn more consider reading{" "}
-      <a className="hover:underline text-blue-400" href="https://www.investingsimple.com/webull-vs-robinhood/">
+      <a href="https://www.investingsimple.com/webull-vs-robinhood/">
         this article
       </a>{" "}
       or watch this video

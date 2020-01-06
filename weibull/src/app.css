@@ -1,7 +1,7 @@
 @tailwind base;
 
 a {
-  @apply text-blue-400;
+  @apply text-blue-800 font-bold;
 }
 a:hover {
   @apply underline;
@@ -12,6 +12,10 @@ h1 {
 }
 
 @tailwind components;
+
+nav a {
+  @apply font-normal;
+}
 
 nav a:hover {
   @apply no-underline;

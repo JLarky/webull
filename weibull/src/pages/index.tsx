@@ -1,7 +1,22 @@
 import React from "react";
+import { Head } from "react-static";
 
 export default () => (
   <div className="text-center">
+    <Head>
+      <title>Weibull vs Robinhood</title>
+      <meta property="og:title" content="Weibull vs Robinhood" />
+      <meta property="og:url" content="https://weibull.netlify.com/" />
+      <meta property="og:type" content="website" />
+      <meta
+        property="og:description"
+        content="Weibull is commission free online brokerage that competes with Robinhood."
+      />
+      {/* <meta
+        property="og:image"
+        content="http://some-react-static-website/img/OG_thumb.jpg"
+      /> */}
+    </Head>
     <h1>Weibull vs Robinhood</h1>
     <p className="m-4">
       Webull is commission free online brokerage that competes with Robinhood.
